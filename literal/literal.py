@@ -1,13 +1,13 @@
 from typing import Literal
 
-kenVeLof = Literal['yes', 'no']
+KenVeLo = Literal['yes', 'no']
 
 
-def yes_or_no(x: kenVeLof) -> None:
+def yes_or_no(x: KenVeLo) -> None:
     if x == 'yes':
-        print('yes')
+        print('ken')
     else:
-        print('no')
+        print('lo')
 
 
 yes_or_no('yes')

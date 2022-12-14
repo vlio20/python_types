@@ -8,3 +8,6 @@ def avg(items: Vector) -> float:
 
 
 a = avg([1, 2, 3])
+
+v = Vector([1, 2, 3])
+avg(v)
